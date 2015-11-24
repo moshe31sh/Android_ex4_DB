@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My first tool bar</string>
+    <string name="action_search">Search</string>
+    <string name="action_setting">setting</string>
+    <string name="setting">Setting</string>
+    <string name="change_button">Change menu</string>
+    <string name="add_task_button">Add task</string>
+    <string name="write_text">Enter task</string>
+    <string name="done_task_button">Done</string>
+    <string name="title_activity_add_task_todo_list">AddTaskTodoListActivity</string>
+    <string name="todo_list_item_description">Description</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="log_in_name">User Name</string>
+    <string name="log_in_password">Password</string>
+    <string name="welcome">Welcome</string>
+    <string name="appName">My ToDoList</string>
+    <string name="logInButton">Login</string>
+
+
+</resources>

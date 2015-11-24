@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    android:padding="16dp"
+    tools:context="com.example.moshe.mytoolbar.activities.LoginActivity">
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="@string/appName"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingTop="75dp"
+        android:text="@string/welcome"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/appName"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_name"
+        android:ems="10"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:background="@drawable/text_back_ground"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextPassWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_password"
+        android:ems="10"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:background="@drawable/text_back_ground"
+        android:layout_below="@+id/editTextUserName"
+        android:layout_alignLeft="@+id/editTextUserName"
+        android:layout_alignStart="@+id/editTextUserName"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_button"
+        android:onClick="logInClicked"
+        android:text="@string/logInButton"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/editTextPassWord"
+        android:layout_alignLeft="@+id/editTextPassWord"
+        android:layout_alignStart="@+id/editTextPassWord"
+        android:layout_marginTop="69dp"
+        android:layout_alignRight="@+id/editTextPassWord"
+        android:layout_alignEnd="@+id/editTextPassWord" />
+</RelativeLayout>
